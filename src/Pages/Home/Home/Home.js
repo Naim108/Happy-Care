@@ -1,9 +1,19 @@
 import React from 'react';
+import Footer from '../../Shared/Footer/Footer';
+import Navigation from '../../Shared/Navigation/Navigation';
+import AppointmentBanner from '../AppoinmentBanner/AppointmentBanner';
+import Banner from '../Banner/Banner';
+import Services from '../Services/Services';
 
 const Home = () => {
     return (
         <div>
-            <h2>This is home</h2>
+           <Navigation></Navigation>
+           <Banner></Banner>
+           <Services></Services>
+           <AppointmentBanner></AppointmentBanner>
+
+           <Footer></Footer>
         </div>
     );
 };

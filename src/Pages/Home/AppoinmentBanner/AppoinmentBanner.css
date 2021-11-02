@@ -1,0 +1,4 @@
+.banner{
+    background-color:rgba(45, 58, 74);
+    background-blend-mode: darken, luminosity;
+}
