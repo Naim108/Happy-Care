@@ -6,21 +6,15 @@ import bg from '../../../images/appointment-bg.png'
 import { width } from '@mui/system';
 import { Button, Typography } from '@mui/material';
 
-const appointmentBg={
-    background: `url(${bg})`,
-   backgroundColor:'#5CE7ED',
-    backgroundBlendMood: 'darken,luminosity',
-    backgroundRepeat:'no-repeat',
-    marginTop: 150,
-   
-			
-		
-			
-
-}
+const appointmentBanner = {
+  background: `url(${bg})`,
+  backgroundColor: 'rgba(45, 58, 74, 0.9)',
+  backgroundBlendMode: 'darken, luminosity',
+  marginTop: 175
+  }
 const AppointmentBanner = () => {
     return (
-        <Box className="banner" style={appointmentBg} sx={{ flexGrow: 1 }}>
+        <Box className="banner" style={appointmentBanner} sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
           <Grid item xs={12} md={6}>
             <img 
@@ -32,10 +26,10 @@ const AppointmentBanner = () => {
              <Typography variant="h6" sx={{mb:5}}  style={{color:'#5CE7ED'}}>
                   Appointment
               </Typography>
-              <Typography variant="h6" sx={{my:3}} style={{fontSize:30,fontWeight:600}}>
+              <Typography variant="h6" sx={{my:3}} style={{color:'white',fontSize:30,fontWeight:600}}>
                  Make an  Appointment Today
               </Typography>
-              <Typography variant="h6" sx={{my:3}} style={{fontWeight:300}}>
+              <Typography variant="h6" sx={{my:3}} style={{color:'white',fontWeight:300}}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis porro ducimus 
                 dolores quis pariatur quo sit saepe neque veritatis illo obcaecati laboriosam fuga
                  nulla, dicta ex, esse amet ab minus.

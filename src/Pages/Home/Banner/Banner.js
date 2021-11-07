@@ -4,16 +4,20 @@ import Grid from '@mui/material/Grid';
 import chair from '../../../images/chair.png'
 import banner from '../../../images/bg.png'
 import { Button, Container, Typography } from '@mui/material';
+import { height } from '@mui/system';
 
 
 const bannerBg={
     background:`url(${banner})`,
+    marginTop:'10px',
+   
     
 }
 const verticalCenter={
     display:'flex',
     alignItems: 'center',
-    height: 400
+    height: 400,
+   
 }
 
 const Banner = () => {
